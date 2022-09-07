@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         // dispose of any resources that can be recreated
     }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        //
+    }
 
     override func viewWillAppear(_ animated: Bool) {
 //         comment
